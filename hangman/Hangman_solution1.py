@@ -174,6 +174,7 @@ class Hangman:
            print("Ops...Wrong guess!!!...")
            print()
            self.num_lives-=1 
+           # call the diplay method to display the hangman pics
            self.display(self.num_lives)   
            print()
            print("You have {} lives remaining".format(self.num_lives)) 
