@@ -117,18 +117,18 @@ class Hangman:
         #empty list to check if the letter exists
         self.list_letters =[]
 
-        #initializing a variable that pick randomly the position of the word  in the list.
+        
 
-        #retrieving the word picked randomly from the list and assign it to a string variable for processing.
+        
 
         #print out the number of charactes that the word picked randomly from the world_list has.
         print("The mystery word has",len(self.word),"characters")
         print()
 
 
-        #print(' '.join(self.word_guessed))
+        
         print(self.word_guessed)
-        #self.num_letters = len(self.word)
+        
         
 
         # TODO 2: Print two message upon initialization:
@@ -167,7 +167,7 @@ class Hangman:
             print()
             print("Total number of unique letters not gueussed is: ", self.num_letter)
             print()
-            #print(' '.join(self.word_guessed))
+        
             print(self.word_guessed)
         else:
            # if guess not in word the number of the lives is reduice by 1 and the Hangman graphic is displayed
